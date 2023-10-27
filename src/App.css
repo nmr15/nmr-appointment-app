@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+*
+{
+  font-family: "Roboto";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Colors */
+
+/* https: //colorhunt.co/palette/053b50176b8764ccc5eeeeee */
+:root
+{
+  --dark-blue: #176B87
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-main
+{
+  color: #fff;
+  background-color: var(--dark-blue);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/**********************************************
+                    Navbar 
+**********************************************/
+
+.nav-link
+{
+  font-weight: 700;
 }
 
-.App-link {
-  color: #61dafb;
+.banner
+{
+  height: 724px;
+  background-image: url(img/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-hero
+{
+  margin-left: 200px;
+}
+
+/* Login */
+.login
+{
+  -webkit-box-shadow: 10px 10px 22px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 22px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 22px -4px rgba(0, 0, 0, 0.75);
+}
+
+.login i
+{
+  font-size: 7rem;
+  color: var(--dark-blue);
 }
